@@ -41,13 +41,17 @@
   <a href="https://www.modelscope.cn/organization/MiniMax" target="_blank" style="margin: 2px;">
     🤖️ ModelScope
   </a> | 
-  <a href="https://github.com/MiniMax-AI/MiniMax-M2.1/blob/main/LICENSE" style="margin: 2px;">
+  <a href="https://github.com/MiniMax-AI/MiniMax-M2.5/blob/main/LICENSE" style="margin: 2px;">
     📄 License: Modified-MIT
   </a>
 </div>
 
 <p align="center">
-  <img width="100%" src="figures/bench_11.png">
+  <picture>
+    <source srcset="figures/bench_11.png" media="(prefers-color-scheme: dark)">
+      <img width="100%" src="figures/bench_12.png">
+    </source>
+  </picture>
 </p>
 
 Today we're introducing our latest model, **MiniMax-M2.5**.
@@ -63,7 +67,11 @@ M2.5 is the first frontier model where users do not need to worry about cost, de
 In programming evaluations, MiniMax-M2.5 saw substantial improvements compared to previous generations, reaching SOTA levels. The performance of M2.5 in multilingual tasks is especially pronounced.
 
 <p align="center">
-  <img width="100%" src="figures/bench_2.png">
+  <picture>
+    <source srcset="figures/bench_2.png" media="(prefers-color-scheme: dark)">
+      <img width="100%" src="figures/bench_1.png">
+    </source>
+  </picture>
 </p>
 
 A significant improvement from previous generations is M2.5's ability to think and plan like an architect. The Spec-writing tendency of the model emerged during training: before writing any code, M2.5 actively decomposes and plans the features, structure, and UI design of the project from the perspective of an experienced software architect.
@@ -73,7 +81,11 @@ M2.5 was trained on over 10 languages (including Go, C, C++, TypeScript, Rust, K
 To evaluate these capabilities, we also upgraded the VIBE benchmark to a more complex and challenging Pro version, significantly increasing task complexity, domain coverage, and evaluation accuracy. Overall, M2.5 performs on par with Opus 4.5.
 
 <p align="center">
-  <img width="100%" src="figures/bench_4.png">
+  <picture>
+    <source srcset="figures/bench_4.png" media="(prefers-color-scheme: dark)">
+      <img width="100%" src="figures/bench_3.png">
+    </source>
+  </picture>
 </p>
 
 We focused on the model's ability to generalize across out-of-distribution harnesses. We tested performance on the SWE-Bench Verified evaluation set using different coding agent harnesses. 
@@ -83,7 +95,11 @@ We focused on the model's ability to generalize across out-of-distribution harne
 ## Search and Tool calling
 
 <p align="center">
-  <img width="100%" src="figures/bench_6.png">
+  <picture>
+    <source srcset="figures/bench_6.png" media="(prefers-color-scheme: dark)">
+      <img width="100%" src="figures/bench_5.png">
+    </source>
+  </picture>
 </p>
 
 Effective tool calling and search are prerequisites for a model's ability to autonomously handle more complex tasks. In evaluations on benchmarks such as BrowseComp and Wide Search, M2.5 achieved industry-leading performance. At the same time, the model's generalization has also improved — M2.5 demonstrates more stable performance when facing unfamiliar scaffolding environments.
@@ -97,7 +113,11 @@ Compared to its predecessors, M2.5 also demonstrates much better decision-making
 M2.5 was trained to produce truly deliverable outputs in office scenarios. To this end, we engaged in thorough collaboration with senior professionals in fields such as finance, law, and social sciences. They designed requirements, provided feedback, participated in defining standards, and directly contributed to data construction, bringing the tacit knowledge of their industries into the model's training pipeline. Based on this foundation, M2.5 has achieved significant capability improvements in high-value workspace scenarios such as Word, PowerPoint, and Excel financial modeling. On the evaluation side, we built an internal Cowork Agent evaluation framework (GDPval-MM) that assesses both the quality of the deliverable and the professionalism of the agent's trajectory through pairwise comparisons, while also monitoring token costs across the entire workflow to estimate the model's real-world productivity gains. In comparisons against other mainstream models, it achieved an average win rate of 59.0%.
 
 <p align="center">
-  <img width="100%" src="figures/bench_8.png">
+  <picture>
+    <source srcset="figures/bench_8.png" media="(prefers-color-scheme: dark)">
+      <img width="100%" src="figures/bench_7.png">
+    </source>
+  </picture>
 </p>
 
 ## Efficiency
