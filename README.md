@@ -202,6 +202,10 @@ We recommend using [vLLM](https://github.com/vllm-project/vllm) to serve MiniMax
 
 We recommend using [Transformers](https://github.com/huggingface/transformers) to serve MiniMax-M2.5. Please refer to our [Transformers Deployment Guide](./docs/transformers_deploy_guide.md).
 
+### KTransformers
+
+We recommend using [KTransformers](https://github.com/kvcache-ai/ktransformers) to serve MiniMax-M2.5. Please refer to [KTransformers Deployment Guide](https://github.com/kvcache-ai/ktransformers/blob/main/doc/en/MiniMax-M2.5.md)
+
 ### Inference Parameters
 
 We recommend using the following parameters for best performance: `temperature=1.0`, `top_p = 0.95`, `top_k = 40`. Default system prompt:
