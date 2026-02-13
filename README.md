@@ -196,7 +196,7 @@ We recommend using [SGLang](https://docs.sglang.io/) to serve MiniMax-M2.5. Plea
 
 ### vLLM
 
-We recommend using [vLLM](https://github.com/vllm-project/vllm) to serve MiniMax-M2.5. Please refer to our [vLLM Deployment Guide](./docs/vllm_deploy_guide.md).
+We recommend using [vLLM](https://github.com/vllm-project/recipes/blob/main/MiniMax/MiniMax-M2.md) to serve MiniMax-M2.5. Please refer to our [vLLM Deployment Guide](./docs/vllm_deploy_guide.md).
 
 ### Transformers
 
