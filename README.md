@@ -12,7 +12,7 @@
   <a href="https://platform.minimaxi.com/docs/faq/contact-us" target="_blank" style="font-size:17px; margin: 2px;">
     💬 WeChat
   </a> | 
-  <a href="https://discord.com/invite/hvvt8hAye6" target="_blank" style="font-size:17px; margin: 2px;">
+  <a href="https://discord.gg/minimax" target="_blank" style="font-size:17px; margin: 2px;">
     🧩 Discord
   </a> 
   community.
