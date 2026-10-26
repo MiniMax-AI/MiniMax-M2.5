@@ -19,7 +19,7 @@
 </div>
 <div align="center" style="line-height: 1.2; font-size:16px;">
   <a href="https://agent.minimax.io/" target="_blank" style="display: inline-block; margin: 4px;">
-    MiniMax Agent
+    MiniMax Code
   </a> | 
   <a href="https://platform.minimax.io/docs/guides/text-generation" target="_blank" style="display: inline-block; margin: 4px;">
     ⚡️ API
@@ -162,23 +162,23 @@ On the algorithm side, we continued using the CISPO algorithm we proposed at the
 
 We will release a more comprehensive introduction to RL scaling soon in a separate technical blogpost.
 
-## MiniMax Agent: M2.5 as a Professional Employee
+## MiniMax Code: M2.5 as a Professional Employee
 
-M2.5 has been fully deployed in MiniMax Agent, delivering the best agentic experience.
+M2.5 has been fully deployed in MiniMax Code, delivering the best agentic experience.
 
-We have distilled core information-processing capabilities into standardized Office Skills deeply integrated within MiniMax Agent. In MAX mode, when handling tasks such as Word formatting, PowerPoint editing, and Excel calculations, MiniMax Agent automatically loads the corresponding Office Skills based on file type, improving the quality of task outputs.
+We have distilled core information-processing capabilities into standardized Office Skills deeply integrated within MiniMax Code. In MAX mode, when handling tasks such as Word formatting, PowerPoint editing, and Excel calculations, MiniMax Code automatically loads the corresponding Office Skills based on file type, improving the quality of task outputs.
 
 Furthermore, users can combine Office Skills with domain-specific industry expertise to create reusable Experts tailored to specific task scenarios.
 
 Take industry research as an example: by merging a mature research framework SOP (standard operating procedure) with Word Skills, the Agent can strictly follow the established framework to automatically fetch data, organize analytical logic, and output properly formatted research reports — rather than merely generating a raw block of text. In financial modeling scenarios, by combining an organization's proprietary modeling standards with Excel Skills, the Agent can follow specific risk control logic and calculation standards to automatically generate and validate complex financial models, rather than simply outputting a basic spreadsheet.
 
-To date, users have built over 10,000 Experts on MiniMax Agent, and this number is still growing rapidly. MiniMax has also built multiple sets of deeply optimized, ready-to-use Expert suites on MiniMax Agent for high-frequency scenarios such as office work, finance, and programming.
+To date, users have built over 10,000 Experts on MiniMax Code, and this number is still growing rapidly. MiniMax has also built multiple sets of deeply optimized, ready-to-use Expert suites on MiniMax Code for high-frequency scenarios such as office work, finance, and programming.
 
 MiniMax itself has been among the first to benefit from M2.5's capabilities. Throughout the company's daily operations, 30% of overall tasks are autonomously completed by M2.5, spanning functions including R&D, product, sales, HR, and finance — and the penetration rate continues to rise. Performance in coding scenarios has been particularly notable, with M2.5-generated code accounting for 80% of newly committed code.
 
 ## How to Use
 
-MiniMax Agent: https://agent.minimax.io/
+MiniMax Code: https://agent.minimax.io/
 
 MiniMax API Platform: https://platform.minimax.io/
 
